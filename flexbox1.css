@@ -1,0 +1,133 @@
+.flexcontA{
+    display: flex;
+    flex-direction: column;
+    background-color: deepskyblue;
+}
+
+.flexcontB{
+    display: flex;
+    flex-direction: row;
+    background-color: deepskyblue;
+}
+
+.flexcontC{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: deepskyblue;
+}
+
+.flexcontD{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: deepskyblue;
+}
+
+.flexcontE{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: deepskyblue;
+}
+
+.flexcontF{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: deepskyblue;
+}
+
+.flexcontG{
+    display: flex;
+    justify-content: center;
+    background-color: deepskyblue;
+}
+
+.flexcontH{
+    display: flex;
+    justify-content: flex-start;
+    background-color: deepskyblue;
+}
+
+.flexcontI{
+    display: flex;
+    justify-content: flex-end;
+    background-color: deepskyblue;
+}
+
+.flexcontJ{
+    display: flex;
+    justify-content: space-around;
+    background-color: deepskyblue;
+}
+
+.flexcontK{
+    display: flex;
+    justify-content: space-between;
+    background-color: deepskyblue;
+}
+
+.flexcontL{
+    display: flex;
+    align-items: center;
+    background-color: deepskyblue;
+}
+
+.flexcontM{
+    display: flex;
+    align-items: flex-start;
+    background-color: deepskyblue;
+}
+
+.flexcontN{
+    display: flex;
+    align-items: flex-end;
+    background-color: deepskyblue;
+}
+.flexcontN {
+    display: flex;
+    height: 200px;
+    align-items: flex-end;
+    background-color: DodgerBlue;
+  }
+  
+  .flexcontN > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+.flexcontO{
+    display: flex;
+    align-items: stretch;
+    background-color: deepskyblue;
+}
+.flexcontO{
+    display: flex;
+    height: 200px;
+    align-items: stretch;
+    background-color: DodgerBlue;
+  }
+  .flexcontO> div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+  .flexcontP{
+    display: flex;
+    align-content: center;
+    width: 200px;
+    background-color: deepskyblue;
+}
+
+div{
+    
+    background-color: rgb(242, 248, 250);
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+}
